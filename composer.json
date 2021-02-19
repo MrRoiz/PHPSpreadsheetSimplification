@@ -1,0 +1,19 @@
+{
+    "name": "mrroiz/phpexcelsimplification",
+    "description": "Plugin to make easier to use PHPExcel library",
+    "type": "plugin",
+    "require": {
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Oscar Ruiz",
+            "email": "oscaralexruiz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    }
+}
