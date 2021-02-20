@@ -243,8 +243,8 @@ class PHPSpreadsheetSimplification{
 
 	static private function setAttributesExcel(){
 		self::$SpreadsheetInstance->getProperties()
-		->setCreator("Suplos")
-		->setLastModifiedBy("Suplos");
+		->setCreator("")
+		->setLastModifiedBy("");
 	}
 
 	static private function setTitlePage($title){
